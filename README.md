@@ -1,7 +1,7 @@
-##File Integrity Monitoring Tool
+## File Integrity Monitoring Tool
 
 The File Integrity Monitoring (FIM) tool is a PowerShell script designed to monitor and track changes within a specified directory, ensuring the integrity and security of files. The tool provides the ability to create a baseline of file hashes and subsequently monitor these files for any modifications, additions, or deletions.
-#Functionality
+# Functionality
 •	Hashing Function:
 The tool utilizes a hashing function to generate unique checksums for each file in the specified directory. The default hashing algorithm is SHA-512, but users have the flexibility to choose a different algorithm.
 
