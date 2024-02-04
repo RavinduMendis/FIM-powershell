@@ -5,8 +5,13 @@ The File Integrity Monitoring (FIM) tool is a PowerShell script designed to moni
 ## •	Hashing Function:
 The tool utilizes a hashing function to generate unique checksums for each file in the specified directory. The default hashing algorithm is SHA-512, but users have the flexibility to choose a different algorithm.
 
+![image](https://github.com/RavinduMendis/FIM-powershell/assets/53220147/5f184fb7-1f4c-4ef6-86e8-9c7357e281a8)
+
 ## •	Baseline Deletion:
 Before creating a new baseline, the tool checks if an existing baseline file ('baseline.txt') exists. If it does, the script deletes the old baseline to ensure a fresh start.
+
+![image](https://github.com/RavinduMendis/FIM-powershell/assets/53220147/60747928-4736-493a-862b-0ffe93044bf2)
+
 
 ## •	Logging Function:
 The script includes a logging function to report file changes with timestamps. Messages are displayed in different colors based on the type of change - green for creations, yellow for modifications, and red for deletions.
