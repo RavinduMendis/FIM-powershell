@@ -16,6 +16,9 @@ Before creating a new baseline, the tool checks if an existing baseline file ('b
 ## •	Logging Function:
 The script includes a logging function to report file changes with timestamps. Messages are displayed in different colors based on the type of change - green for creations, yellow for modifications, and red for deletions.
 
+![image](https://github.com/RavinduMendis/FIM-powershell/assets/53220147/a59308c3-833e-4947-8a63-926f6c9925b0)
+
+
 # Usage
 •	Initialization: Upon execution, the user is prompted to choose between two options:
 •	A: Collect a new baseline.
