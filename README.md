@@ -48,8 +48,13 @@ During the file monitoring phase (Option B), the script iterates through all fil
 For each file, it computes the hash using the defined hashing function (hashing).
 If the file path is not present in the baseline dictionary, it signifies a new file creation.
 A log message is generated and displayed indicating the newly created file.
+
+![image](https://github.com/RavinduMendis/FIM-powershell/assets/53220147/23ea093f-3ba0-4cee-bb05-2c3a824bd414)
+
 ## •	Modification Detection:
 For files that exist in both the baseline and the current directory, the script compares the computed hash with the stored hash in the baseline dictionary.
+
+![image](https://github.com/RavinduMendis/FIM-powershell/assets/53220147/b5a40a6d-3bba-433d-a4ca-bb0e2b9dace5)
 
 If the hashes differ, it indicates a file modification.
 A log message is generated and displayed indicating the modified file.
@@ -58,6 +63,9 @@ A log message is generated and displayed indicating the modified file.
 After checking for creations and modifications, the script examines the baseline dictionary to identify files that were present in the baseline but are no longer in the current directory.
 If a file from the baseline is not found in the current directory, it indicates a file deletion.
 A log message is generated and displayed indicating the deleted file.
+
+![image](https://github.com/RavinduMendis/FIM-powershell/assets/53220147/12b228aa-4f64-4fd8-99aa-00f3d57a2e38)
+
 # Conclusion
 The File Integrity Monitoring tool provides a simple yet effective solution for tracking changes in a specified directory. It enables users to establish a baseline of file hashes and subsequently monitor these files for any unauthorized modifications, ensuring the integrity and security of critical files. The tool's flexibility in choosing hashing algorithms and real-time monitoring makes it a valuable asset for maintaining file integrity in various scenarios.
 
